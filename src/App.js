@@ -1,45 +1,36 @@
 import React from 'react';
-import { Text, TouchableOpacity, View } from 'react-native';
-import { SComponentContainer, SIcon, SNavigation, SView } from 'servisofts-component';
-import Pages from './Pages';
-import Assets from './Assets';
-
-//---------REDUX----------
-import Reducer from './Reducer';
-import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
+import { applyMiddleware, createStore } from 'redux';
 import reduxThunk from 'redux-thunk';
-// import SSocket from './SSocket';
-//------------------------
+import { SComponentContainer, SNavigation } from 'servisofts-component';
+import SSocket, { setProps } from 'servisofts-socket';
+import Assets from './Assets';
+import Pages from './Pages';
+import Reducer from './Reducer';
 import SConfig from './SConfig';
-import SSocket, { setProps } from 'servisofts-socket'
 setProps(SConfig.SocketProps);
 
-const store = createStore(
-    Reducer,
-    {},
-    applyMiddleware(reduxThunk),
-);
+const store = createStore(Reducer, {}, applyMiddleware(reduxThunk),);
 
 const App = (props) => {
     return (
         <Provider store={store}>
             <SComponentContainer
-                // debug //iconos superior derecha
-                // socket={SSocket}
+                debug
+                socket={SSocket}
                 assets={Assets}
+                // background={<BackgroundImage />}
                 theme={{ initialTheme: "dark", themes: SConfig.SThemeProps }}>
                 <SNavigation props={{
                     prefixes: ["https://component.servisofts.com", "component.servisofts://"],
                     pages: Pages,
+                    title: "App Alvaro",
                 }} />
                 <SSocket identificarse={(props) => {
                     var usuario = props.state.usuarioReducer.usuarioLog;
-                    return {
-                        data: usuario ? usuario : {},
-                        deviceKey: "as-asa-as",
-                    }
+                    return { data: usuario ? usuario : {}, deviceKey: "as-asa-as", }
                 }} />
+                {/* <NavBar /> barraaaaaaaa  */}
             </SComponentContainer>
         </Provider>
     )
