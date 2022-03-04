@@ -1,29 +1,30 @@
 import { SPageListProps } from 'servisofts-component'
-import Chat from './Chat';
-import Usuario from './Usuario';
-
-import Estado from './Estado';
 import Test from './Test';
 import CargaPage from './CargaPage';
-import Llamadas from './Llamadas';
-import Camara from './Camara';
-import Ajustes from './Ajustes';
+import Ajustes from './template_001/Ajustes';
+import Camara from './template_001/Camara';
+import Chats from './template_001/Chats';
+import Estados from './template_001/Estados';
+import Llamadas from './template_001/Llamadas';
+
+
+
 const Pages: SPageListProps = {
     "carga": CargaPage,
-    "test": Test,
-    "estado": Estado,
-    "llamadas": Llamadas,
+    // "test": Test,
     "camara": Camara,
-    "ajuste": Ajustes,
-    ...Chat.Pages,
-    ...Usuario.Pages,
-
+    "ajustes": Ajustes,
+    "chats": Chats,
+    "estados": Estados,
+    "llamadas": Llamadas,
+    // ...Chat.Pages,
+    // ...Usuario.Pages,
 }
 
 
 export const Reducer = {
-    ...Usuario.Reducers,
-    ...Chat.Reducers,
+    // ...Usuario.Reducers,
+    // ...Chat.Reducers,
 }
 
 export default Pages;

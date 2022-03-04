@@ -33,11 +33,11 @@ export default class Menu extends Component {
                 ]} />
 
                 <SView col={'xs-12'} row height>
-                    {this.getItem({ key: "estado", title: 'Estados', icon: 'MenuEstado', url: 'estado' })}
-                    {this.getItem({ key: "llamada", title: 'Llamadas', icon: 'MenuCall', url: "llamada" })}
+                    {this.getItem({ key: "estados", title: 'Estados', icon: 'MenuEstado', url: 'estados' })}
+                    {this.getItem({ key: "llamadas", title: 'Llamadas', icon: 'MenuCall', url: "llamadas" })}
                     {this.getItem({ key: "camara", title: 'Camara', icon: 'MenuCamara', url: "camara" })}
-                    {this.getItem({ key: "chat", title: 'Chats', icon: 'MenuChats', url: 'chats' })}
-                    {this.getItem({ key: "ajuste", title: 'Ajustes', icon: 'MenuAjustes', url: "ajuste" })}
+                    {this.getItem({ key: "chats", title: 'Chats', icon: 'MenuChats', url: 'chats' })}
+                    {this.getItem({ key: "ajustes", title: 'Ajustes', icon: 'MenuAjustes', url: "ajustes" })}
                 </SView>
             </SView>
         );

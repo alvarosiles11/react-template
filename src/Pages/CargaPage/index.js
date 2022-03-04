@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { SPage, SText, SThread, SView, SNavigation, STheme, SIcon, SHr } from 'servisofts-component';
-import Usuario from '../Usuario';
+// import Usuario from '../Usuario';
 import { connect } from 'react-redux';
 import { ActivityIndicator, Animated } from 'react-native';
 import LogoAnimado from './LogoAnimado';
@@ -23,13 +23,12 @@ class CargaPage extends Component {
     render() {
 
         new SThread(2500, "cargaHilo", true).start(() => {
-            if (!Usuario.Actions.getUsuarioLogueado(this.props)) {
-                SNavigation.replace("login");
-            } else {
-                SNavigation.replace("chats");
-                // SNavigation.replace("");
-
-            }
+            //     if (!Usuario.Actions.getUsuarioLogueado(this.props)) {
+            //         SNavigation.replace("login");
+            //     } else {
+            //         SNavigation.replace("chats");
+            // SNavigation.replace("");
+            //     }
         });
         return (
             <SPage
