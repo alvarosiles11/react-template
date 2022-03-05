@@ -1,7 +1,7 @@
 {
-    "name": "template",
+    "name": "alvarosiles",
     "version": "1.0.1",
-    "description": "template",
+    "description": "alvarosiles",
     "scripts": {
         "start": "react-native start",
         "build": "react-scripts build",
