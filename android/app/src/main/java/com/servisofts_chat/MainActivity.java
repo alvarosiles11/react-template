@@ -1,4 +1,4 @@
-package com.servisofts_chat;
+package com.template;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "servisofts_chat";
+    return "template";
   }
 }

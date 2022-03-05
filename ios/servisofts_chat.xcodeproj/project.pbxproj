@@ -15,29 +15,29 @@
 		49C9D47B12234717AD7E7ED6 /* Athelas.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACA776A22BFE4221B79BB5BC /* Athelas.ttf */; };
 		71C9A79F8CCE419D8846D1F5 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D92DE6B69AA46CF9D5BCD9B /* Roboto-Light.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		85DC4C6561CEDC15BD4C27E8 /* libPods-servisofts_chat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F0D055081F029C2FCAD5D1 /* libPods-servisofts_chat.a */; };
+		85DC4C6561CEDC15BD4C27E8 /* libPods-template.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F0D055081F029C2FCAD5D1 /* libPods-template.a */; };
 		CB664D30418B484EBFE41B07 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C07E8CAC9E2846BFB6361A76 /* Roboto-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		009359089565E6B4151D2871 /* libPods-servisofts_chat-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-servisofts_chat-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		009359089565E6B4151D2871 /* libPods-template-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-template-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB526409403492799C6B797 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../node_modules/servisofts-component/font/Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* servisofts_chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = servisofts_chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = servisofts_chat/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = servisofts_chat/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = servisofts_chat/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = servisofts_chat/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = servisofts_chat/main.m; sourceTree = "<group>"; };
-		19694007EB853EC42C17FF8D /* libPods-servisofts_chat-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-servisofts_chat-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46F0D055081F029C2FCAD5D1 /* libPods-servisofts_chat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-servisofts_chat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		50AE628FD6660FE7B65A258E /* Pods-servisofts_chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-servisofts_chat.release.xcconfig"; path = "Target Support Files/Pods-servisofts_chat/Pods-servisofts_chat.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = template/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = template/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = template/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = template/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = template/main.m; sourceTree = "<group>"; };
+		19694007EB853EC42C17FF8D /* libPods-template-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-template-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F0D055081F029C2FCAD5D1 /* libPods-template.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-template.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AE628FD6660FE7B65A258E /* Pods-template.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-template.release.xcconfig"; path = "Target Support Files/Pods-template/Pods-template.release.xcconfig"; sourceTree = "<group>"; };
 		5D92DE6B69AA46CF9D5BCD9B /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../node_modules/servisofts-component/font/Roboto-Light.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = servisofts_chat/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8F052C82BD49621EFFE245A7 /* Pods-servisofts_chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-servisofts_chat.debug.xcconfig"; path = "Target Support Files/Pods-servisofts_chat/Pods-servisofts_chat.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = template/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F052C82BD49621EFFE245A7 /* Pods-template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-template.debug.xcconfig"; path = "Target Support Files/Pods-template/Pods-template.debug.xcconfig"; sourceTree = "<group>"; };
 		ACA776A22BFE4221B79BB5BC /* Athelas.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Athelas.ttf; path = "../node_modules/servisofts-component/font/Athelas.ttf"; sourceTree = "<group>"; };
 		C07E8CAC9E2846BFB6361A76 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../node_modules/servisofts-component/font/Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		CDC312C6D0AC626A2A76B402 /* libPods-servisofts_chat-servisofts_chatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-servisofts_chat-servisofts_chatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC312C6D0AC626A2A76B402 /* libPods-template-templateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-template-templateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60BD3D8FE1F45DE9C5E6560 /* hello_baby.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = hello_baby.ttf; path = "../node_modules/servisofts-component/font/hello_baby.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -48,14 +48,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85DC4C6561CEDC15BD4C27E8 /* libPods-servisofts_chat.a in Frameworks */,
+				85DC4C6561CEDC15BD4C27E8 /* libPods-template.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13B07FAE1A68108700A75B9A /* servisofts_chat */ = {
+		13B07FAE1A68108700A75B9A /* template */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -66,7 +66,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = servisofts_chat;
+			name = template;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -74,10 +74,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				46F0D055081F029C2FCAD5D1 /* libPods-servisofts_chat.a */,
-				CDC312C6D0AC626A2A76B402 /* libPods-servisofts_chat-servisofts_chatTests.a */,
-				009359089565E6B4151D2871 /* libPods-servisofts_chat-tvOS.a */,
-				19694007EB853EC42C17FF8D /* libPods-servisofts_chat-tvOSTests.a */,
+				46F0D055081F029C2FCAD5D1 /* libPods-template.a */,
+				CDC312C6D0AC626A2A76B402 /* libPods-template-templateTests.a */,
+				009359089565E6B4151D2871 /* libPods-template-tvOS.a */,
+				19694007EB853EC42C17FF8D /* libPods-template-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,8 +85,8 @@
 		730343C1BBA0FC7345F9E57B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8F052C82BD49621EFFE245A7 /* Pods-servisofts_chat.debug.xcconfig */,
-				50AE628FD6660FE7B65A258E /* Pods-servisofts_chat.release.xcconfig */,
+				8F052C82BD49621EFFE245A7 /* Pods-template.debug.xcconfig */,
+				50AE628FD6660FE7B65A258E /* Pods-template.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -101,7 +101,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* servisofts_chat */,
+				13B07FAE1A68108700A75B9A /* template */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
@@ -116,7 +116,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* servisofts_chat.app */,
+				13B07F961A680F5B00A75B9A /* template.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* servisofts_chat */ = {
+		13B07F861A680F5B00A75B9A /* template */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "servisofts_chat" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "template" */;
 			buildPhases = (
 				3160DBA8BC0B0E40638DC01F /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -152,9 +152,9 @@
 			);
 			dependencies = (
 			);
-			name = servisofts_chat;
-			productName = servisofts_chat;
-			productReference = 13B07F961A680F5B00A75B9A /* servisofts_chat.app */;
+			name = template;
+			productName = template;
+			productReference = 13B07F961A680F5B00A75B9A /* template.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -172,7 +172,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "servisofts_chat" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "template" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -185,7 +185,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* servisofts_chat */,
+				13B07F861A680F5B00A75B9A /* template */,
 			);
 		};
 /* End PBXProject section */
@@ -237,7 +237,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-servisofts_chat-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-template-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -269,7 +269,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-servisofts_chat/Pods-servisofts_chat-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-template/Pods-template-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -278,7 +278,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-servisofts_chat/Pods-servisofts_chat-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-template/Pods-template-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -298,7 +298,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F052C82BD49621EFFE245A7 /* Pods-servisofts_chat.debug.xcconfig */;
+			baseConfigurationReference = 8F052C82BD49621EFFE245A7 /* Pods-template.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -307,7 +307,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MUBDVWB883;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = servisofts_chat/Info.plist;
+				INFOPLIST_FILE = template/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -315,7 +315,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.servisofts.chat;
-				PRODUCT_NAME = servisofts_chat;
+				PRODUCT_NAME = template;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -326,7 +326,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50AE628FD6660FE7B65A258E /* Pods-servisofts_chat.release.xcconfig */;
+			baseConfigurationReference = 50AE628FD6660FE7B65A258E /* Pods-template.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -334,7 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MUBDVWB883;
-				INFOPLIST_FILE = servisofts_chat/Info.plist;
+				INFOPLIST_FILE = template/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -342,7 +342,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.servisofts.chat;
-				PRODUCT_NAME = servisofts_chat;
+				PRODUCT_NAME = template;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,7 +468,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "servisofts_chat" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "template" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -477,7 +477,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "servisofts_chat" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "template" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

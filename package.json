@@ -1,7 +1,7 @@
 {
-    "name": "servisofts_chat",
+    "name": "template",
     "version": "1.0.1",
-    "description": "servisofts_chat",
+    "description": "template",
     "scripts": {
         "start": "react-native start",
         "build": "react-scripts build",
