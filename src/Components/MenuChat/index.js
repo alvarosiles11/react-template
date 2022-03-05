@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { SView, SText, STheme, SGradient, SIcon, SNavigation } from 'servisofts-component'
-export default class Menu extends Component {
+export default class MenuChat extends Component {
     constructor(props) {
         super(props);
         this.state = {

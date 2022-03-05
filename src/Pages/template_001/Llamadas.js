@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { SHr, SGradient, SDate, SInfo, SOrdenador, SComponentContainer, SGrid, SIcon, SNavBar, SNavigation, SPage, SSCrollView, SScrollView2, SScrollView3, SText, STheme, SThread, SUuid, SImage, SList, SBuscador, SView, SLoad, SStorage, SPopup, SPopupOpen, SPopupClose, STable, STable2, SInput, SForm, SButtom, SMapView, SMath, SMarker, Font } from 'servisofts-component';
-import Menu from '../../Components/Menu';
+import MenuChat from '../../Components/MenuChat';
 
 class LLamadas extends React.Component {
     constructor(props) {
@@ -71,7 +71,7 @@ class LLamadas extends React.Component {
                         {this.getList()}
                         <SHr height={20} />
                     </SView>
-                    <Menu url={"ajuste"} />
+                    <MenuChat url={"ajustes"} />
                 </SView>
             </SPage>
         );
