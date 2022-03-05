@@ -12,10 +12,10 @@ class Test extends React.Component {
     render() {
         return (
             <SPage title={''} hidden disableScroll >
-                <SView col={"xs-12"} center height backgroundColor={'transparent'}>
-                    <SView col={"xs-11"} flex backgroundColor={'transparent'}>
+                <SView col={"xs-12"} center height backgroundColor={'red'}>
+                    <SView col={"xs-11"} flex backgroundColor={'blue'}>
                         <SHr height={20} />
-
+                        <SText>Hola mundo</SText>
                     </SView>
                 </SView>
             </SPage>

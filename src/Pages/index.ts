@@ -1,6 +1,5 @@
 import { SPageListProps } from 'servisofts-component'
 import Test from './Test';
-import CargaPage from './CargaPage';
 import Ajustes from './template_001/Ajustes';
 import Camara from './template_001/Camara';
 import Chats from './template_001/Chats';
@@ -10,8 +9,7 @@ import Llamadas from './template_001/Llamadas';
 
 
 const Pages: SPageListProps = {
-    "carga": CargaPage,
-    // "test": Test,
+    "test": Test,
     "camara": Camara,
     "ajustes": Ajustes,
     "chats": Chats,
