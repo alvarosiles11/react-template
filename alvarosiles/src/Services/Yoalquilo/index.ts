@@ -1,6 +1,5 @@
 import { SPageListProps } from 'servisofts-component'
 
-
 import alquiler from './Components/alquiler';
 import cliente from './Components/cliente';
 

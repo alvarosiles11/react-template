@@ -6,8 +6,6 @@ import Item from "./Components/Item";
 import Lista from "./Pages/Lista";
 import Registro from "./Pages/Registro";
 import Reducer from "./Reducer";
-// import ReducerEjemplo1 from "./ReducerEjemplo1";
-// import ReducerEjemplo2 from "./ReducerEjemplo2";
 
 export default {
     component,
@@ -22,7 +20,5 @@ export default {
     },
     Reducers: {
         [component + 'Reducer']: Reducer,
-        // ReducerEjemplo1,
-        // ReducerEjemplo2,
     },
 }
