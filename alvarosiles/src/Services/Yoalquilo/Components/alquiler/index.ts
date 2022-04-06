@@ -1,5 +1,5 @@
 const component = "alquiler";
-const version = "1.0";
+const version = "2.0";
 // ---------------------------------------
 import Actions from "./Actions";
 import Item from "./Components/Item";
@@ -15,8 +15,10 @@ export default {
         Item,
     },
     Pages: {
+        [component + "/lista"]: Lista,
         [component + "/admin/lista"]: Lista,
-        [component + "/Registro"]: Registro,
+        [component + "/admin/registro"]: Registro,
+        [component + "/registro"]: Registro,
     },
     Reducers: {
         [component + 'Reducer']: Reducer,

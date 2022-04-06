@@ -13,7 +13,7 @@ class Lista extends Component {
 		return (
 			<SPage title={'Lista'}>
 
-				<SText>{'Lista'}</SText>
+				<SText>{'Lista Alquiler'}</SText>
 
 			</SPage>
 		);

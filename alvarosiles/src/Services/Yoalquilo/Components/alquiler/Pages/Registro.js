@@ -13,7 +13,7 @@ class Registro extends Component {
 		return (
 			<SPage title={'Registro'}>
 
-				<SText>{'Registro'}</SText>
+				<SText>{'Registro Alquiler'}</SText>
 
 			</SPage>
 		);

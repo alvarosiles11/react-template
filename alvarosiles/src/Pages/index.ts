@@ -8,9 +8,15 @@ import Llamadas from './template_001/Llamadas';
 import Test2 from './template_002/Test';
 
 
+import Services from '../Services';
+
+
 
 const Pages: SPageListProps = {
-    "test": Test,
+
+    "/": Test,
+    ...Services.Pages,
+
     "camara": Camara,
     "ajustes": Ajustes,
     "chats": Chats,
@@ -19,6 +25,8 @@ const Pages: SPageListProps = {
     "test2": Test2,
     // ...Chat.Pages,
     // ...Usuario.Pages,
+
+
 }
 
 

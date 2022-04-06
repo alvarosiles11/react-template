@@ -16,8 +16,13 @@ export default {
         Item,
     },
     Pages: {
+
+
+        [component + "/lista"]: Lista,
         [component + "/admin/lista"]: Lista,
-        [component + "/Registro"]: Registro,
+        [component + "/admin/registro"]: Registro,
+        [component + "/registro"]: Registro,
+
     },
     Reducers: {
         [component + 'Reducer']: Reducer,
