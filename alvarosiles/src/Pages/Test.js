@@ -15,7 +15,7 @@ class Test extends React.Component {
                 <SView col={"xs-12"} center height backgroundColor={'red'}>
                     <SView col={"xs-11"} flex backgroundColor={'blue'} center>
                         <SHr height={20} />
-                        <SText style={{ fontSize: 50 }} >Hola mundo</SText>
+                        <SText style={{ fontSize: 50 }} >Hola mundo kakaka</SText>
                     </SView>
                 </SView>
             </SPage >
